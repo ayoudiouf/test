@@ -1,0 +1,339 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+header{
+    /* border: 1px solid black; */
+    height: 80vh;
+}
+
+header .topHeader{
+    /* border: 1px solid black; */
+    background-color: #ccc;
+    height: 10%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header .topHeader .topHeaderLeft img{
+    height: 6em;
+    width: 6em;
+}
+
+header .topHeader .topHeaderMiddle .search{
+    display: flex;
+    margin-left: 40em;
+}
+
+header .topHeader .topHeaderMiddle .search input{
+    height: 2em;
+    width: 20em;
+    border: 1px solid black;
+    border-right: none;
+}
+
+header .topHeader .topHeaderMiddle .search button{
+    background-color: white;
+    border: 1px solid black;
+    border-left: none;
+    height: 2em;
+    cursor: pointer;
+}
+
+header .topHeader .topHeaderRight{
+    
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    width: 17em;
+   background-size: 10px;
+}
+
+header .topHeader .topHeaderRight .cart{
+    /* border: 1px solid black; */
+}
+
+header .topHeader .topHeaderRight .favorite{
+    /* border: 1px solid black; */
+}
+header .topHeader .topHeaderRight .user{
+    /* border: 1px solid black; */
+}
+
+header .topHeader .topHeaderRight .separtor{
+    border: 1px solid black;
+    height: 1em;
+}
+
+header .middleHeader{
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    height: 3em;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .middleHeader .middleHeaderLeft{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 10em;
+
+}
+
+header .middleHeader .middleHeaderLeft ul{
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+
+header .middleHeader .middleHeaderLeft ul li{
+    list-style: none;
+    margin-left: 2em;
+}
+
+header .middleHeader .middleHeaderLeft ul li select{
+    border: 1px solid white;
+    background-color: white;
+    width: 13em;
+
+}
+
+header .middleHeader .middleHeaderLeft ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header .middleHeader .middleHeaderRight{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .middleHeader .middleHeaderRight a{
+    /* border: 1px solid black; */
+    height: 3em;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 28em;
+}
+
+header .bottomHeader{
+    /* border: 1px solid rgb(207, 16, 16); */
+    height: 83%;
+    /* height: 650px; */
+}
+
+header .bottomHeader img{
+    width: 100%;
+    height: 100%;
+}
+
+main .category .cards{
+    /* border: 1px solid black; */
+    height: 20em;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .category .cards .card{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-color: grey;
+    border-radius: 5%;
+}
+
+main .category .cards .card .cardImage{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+main .category .cards .card .cardImage img{
+    height: 80%;
+    width: 50%;
+    border-radius: 80%;
+}
+
+main .category .cards .card .cardTitle{
+    display: flex;
+    justify-content: center;
+}
+
+main .topModel
+{
+    /* border: 1px solid black; */
+    height: 30em;
+    margin-top: 20px;
+    /* width: 13em; */
+    padding-left: 3em;
+
+}
+
+main .topModel .topModelTop {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+   width: 10%;
+}
+main .topModel .topModelTop .models{
+    font-weight:bold ;
+}
+ main .topModel .topModelBottom{
+    /* border: 1px solid black; */
+    height: 60%;
+    width: 114em;
+ }
+ main .topModel .topModelBottom .cards{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ main .topModel .topModelBottom .cards .card{
+    /* border:  1px solid black; */
+    height: 100%;
+    width: 20%;
+ }
+ main .topModel .topModelBottom .cards .card .cardImage{
+    height: 75%;
+ }
+ main .topModel .topModelBottom .cards .card .cardImage img{
+height: 100%;
+width: 100%;
+ }
+ main .topModel .topModelBottom .cards .card  .cardDetails{
+    /* border: 1px solid rgb(214, 16, 16); */
+    width: 100%;
+    height: 25%;
+    font-weight: bold;
+ }
+ main .topModel .topModelBottom .cards .card  .cardDetails .cardsDetailsTop{
+    
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ main .topModel .topModelBottom .cards .card  .cardDetails .cardsDetailsMiddle{
+
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ main .topModel .topModelBottom .cards .card  .cardDetails .cardsDetailsBottom{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ main .topModel .topModelBottom .cards .card  .cardDetails .cardsDetailsBottom .Off{
+    border: 1px solid black;
+ }
+ main .topModel .topModelBottom .cards .card  .cardDetails .cardsDetailsBottom .clo{
+    color: gray;
+ }
+/* 
+    A+B la balise b qui vient apres A
+
+ */
+
+ .topBoutique{
+    font-size: xx-large;
+    font-weight: 700;
+ }
+ .cards{
+    height: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+   
+ }
+ 
+ .cards .card{
+    /* border:  1px solid black; */
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    margin-left: 1px;
+    
+ }
+ .cards .card .cardBoutique{
+    
+    height: 75%;
+    
+ }
+ .cards .card .cardBoutique img{
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    
+ }
+
+ .cards .card  .cardDetails{
+    /* border: 1px solid rgb(214, 16, 16); */
+    width: 100%;
+    height: 25%;
+    font-weight: bold;
+ }
+ .cards .card  .cardDetails .cardsDetailsNom{
+    
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ .cards .card  .cardDetails .cardsDetailAdress{
+
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ .cards .card  .cardDetails .cardsDetailsPromo{
+    /* border: 1px solid black; */
+    /* display: flex;
+    justify-content:space-between; */
+    width: 90%;
+    margin: 0 auto;
+    
+ }
+ .cards{
+    /* border: 5px blue solid; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+.
+h2{
+    color: black;
+    text-align: center;
+}
+
+
+h1{
+    color: white;
+    margin-left: 70%;
+}
+
